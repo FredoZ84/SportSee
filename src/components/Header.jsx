@@ -1,5 +1,6 @@
 import logo from '../assets/logo.png'
 import { Link } from 'react-router-dom'
+import PropTypes from 'prop-types'
 
 function Header({ user }) {
   const navagation = [
@@ -37,3 +38,7 @@ function Header({ user }) {
 }
 
 export default Header
+
+Header.propTypes = {
+  user: PropTypes.string.isRequired
+}

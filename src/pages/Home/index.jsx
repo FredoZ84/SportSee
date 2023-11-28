@@ -1,3 +1,5 @@
+import PropTypes from 'prop-types'
+
 function Home({ user, updateUser }) {
 
   const users = [
@@ -33,3 +35,7 @@ function Home({ user, updateUser }) {
 }
 
 export default Home
+
+Home.propTypes = {
+  user: PropTypes.string.isRequired
+}

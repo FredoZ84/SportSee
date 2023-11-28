@@ -218,6 +218,7 @@ nav ul li a {
 }
 .average_session_duration {
   background-color: #ff0000;
+  position: relative;
 }
 
 .average_session_duration .customTooltip {
@@ -235,7 +236,7 @@ nav ul li a {
   position: absolute;
   right: 0;
   top: 0;
-  height: 200px;
+  height: inherit;
   background-color: #000000;
   opacity: 0.2;
 }
